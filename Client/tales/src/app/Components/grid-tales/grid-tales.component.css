@@ -1,0 +1,25 @@
+.card {
+    color: #fff;
+    padding: 5px;
+    margin: 10px;
+    background-color: blueviolet;
+    width: 70vw;
+    /* width: 400px; */
+    padding: 1rem;
+    
+}
+
+h1 {
+    color: #fff;
+}
+
+p {
+    color: #fff;
+}
+
+.pin_container ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* flex-direction: column; */
+}
