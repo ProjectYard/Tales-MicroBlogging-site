@@ -5,6 +5,7 @@ import router from "./routes/user-routes";
 const app = express();
 
 // middleware
+app.use(express.json())
 app.use("/api/user",router)
 
 // G0WO4ZEUgWvb4tTs
