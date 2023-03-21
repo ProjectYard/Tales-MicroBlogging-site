@@ -1,12 +1,14 @@
 import express from "express";
 import mongoose from "mongoose";
-import router from "./routes/user-routes";
+import userRouter from "./routes/user-routes";
+import blogRouter from "./routes/blog-routes";
 
 const app = express();
 
 // middleware
 app.use(express.json())
-app.use("/api/user",router)
+app.use("/api/user",userRouter)
+app.use("/api/blog", blogRouter);
 
 // G0WO4ZEUgWvb4tTs
 mongoose
